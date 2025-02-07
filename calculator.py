@@ -1,6 +1,6 @@
 # Import OS module to execute shell commands
 import os
-# Install and import tkinter as a module
+# A clever method to install and import tkinter as a module
 print("Checking if tkinter is installed......")
 try:
    from tkinter import *
@@ -52,7 +52,7 @@ justify='right', bd=30, bg="blue").pack(side=TOP, expand=YES, fill=BOTH)
               for ichar in clearButton:
                   button(erase, LEFT, ichar, lambda
 storeObj=display, q=ichar: storeObj.set(''))
-
+          # Create the "1234567890", "=" and arithmetic operation buttons
           for numButton in ("789/", "456*", "123-", "0.+"):
               FunctionNum = iCalc(self, TOP)
               for iEquals in numButton:
