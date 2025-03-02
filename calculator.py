@@ -72,6 +72,7 @@ storeObj=display, q=ichar: storeObj.set(''))
                   button(FunctionNum, LEFT, iEquals, lambda
                   storeObj=display, q=iEquals: storeObj
                   .set(storeObj.get() + q))
+          # The "=" button
           EqualButton = iCalc(self, TOP)
           for iEquals in "=":
               if iEquals == '=':
